@@ -1,0 +1,6 @@
+framework module JCSnowflakeID {
+  umbrella header "JCSnowflakeID-umbrella.h"
+
+  export *
+  module * { export * }
+}

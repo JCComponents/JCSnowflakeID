@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C940FF483DF6F7CEDC7212879C42CD /* Pods-JCSnowflakeID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D32AEC98D6B297B1F2F4AE49608B6262 /* Pods-JCSnowflakeID_Tests-dummy.m */; };
+		25C66A202B4E522F5FDF2C786304CE3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2D30C67CBE3859F078D7A6EC68BC9415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		37F180F48C49AE3DEA9A89033748DF71 /* Pods-JCSnowflakeID_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2185B5999703CA5F8F87F8D29835DE54 /* Pods-JCSnowflakeID_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F0D85142E860F56CE16133472FE6C47 /* JCSnowflakeID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D0F1153CD8AC0D42C8E782C5F3D7B8 /* JCSnowflakeID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB496BC2DF727971A7B9044F14D591A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C48705C8170FC402B78B6657D2F01377 /* JCSnowflakeID.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BA733D47913C3640D7548F0B0A537E /* JCSnowflakeID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D18BEF09206250EFFE387A60D279DF5F /* JCSnowflakeID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93EAB2932E00CF016C87638B2DD844D /* JCSnowflakeID-dummy.m */; };
+		E307E6B18E7BC5EEEE297BE0D1A4877E /* JCSnowflakeID.c in Sources */ = {isa = PBXBuildFile; fileRef = F415A3C627665489DD69C24A11B86F9D /* JCSnowflakeID.c */; };
+		E55CE22189C5FC06EEF8929E2FB3D49F /* Pods-JCSnowflakeID_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CC9117EE618A4461D40DFF82F1DE03 /* Pods-JCSnowflakeID_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBBDA544E5ED5DCDC8EFCC0DE77A646D /* Pods-JCSnowflakeID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC539C3A2795015C63970B769385ACC /* Pods-JCSnowflakeID_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		005DFB6B8E8CA68C8B98B57D0B1D21C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB6836BF6191DD82B5383DD510A945E;
+			remoteInfo = JCSnowflakeID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059113323825A757B3119E3FA8028E08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2185B5999703CA5F8F87F8D29835DE54 /* Pods-JCSnowflakeID_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCSnowflakeID_Example-umbrella.h"; sourceTree = "<group>"; };
+		2AC539C3A2795015C63970B769385ACC /* Pods-JCSnowflakeID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCSnowflakeID_Example-dummy.m"; sourceTree = "<group>"; };
+		31DE928C2A747A709B4E4F04BD59A8E1 /* JCSnowflakeID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCSnowflakeID-prefix.pch"; sourceTree = "<group>"; };
+		32BA733D47913C3640D7548F0B0A537E /* JCSnowflakeID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCSnowflakeID.h; path = JCSnowflakeID/Classes/JCSnowflakeID.h; sourceTree = "<group>"; };
+		34869D1A311846EBEEABD4DE42AA0ED5 /* Pods-JCSnowflakeID_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCSnowflakeID_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3ED258A15764D499AF6E16A9D666D1C3 /* Pods-JCSnowflakeID_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCSnowflakeID_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		409C64FF54707E7E3E7CC82E112F4CB5 /* Pods_JCSnowflakeID_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCSnowflakeID_Tests.framework; path = "Pods-JCSnowflakeID_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BBFCB070D4EA465DAA913D0F97CA84 /* JCSnowflakeID.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JCSnowflakeID.modulemap; sourceTree = "<group>"; };
+		4ABCA0AB4F19ECCC2B3A189590F44AC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64321CE10472F54B3142F9ED8081440F /* Pods-JCSnowflakeID_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JCSnowflakeID_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73CC9117EE618A4461D40DFF82F1DE03 /* Pods-JCSnowflakeID_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCSnowflakeID_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7DF32CE61481012602D9CD8D5CC21752 /* Pods-JCSnowflakeID_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCSnowflakeID_Tests-resources.sh"; sourceTree = "<group>"; };
+		91B82ACE6E3D4AD127CE9D4293D66D47 /* Pods-JCSnowflakeID_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCSnowflakeID_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952B5170BA044C4767ECE5E8B7EEED3D /* Pods-JCSnowflakeID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCSnowflakeID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99D0F1153CD8AC0D42C8E782C5F3D7B8 /* JCSnowflakeID-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCSnowflakeID-umbrella.h"; sourceTree = "<group>"; };
+		9A24A7A577BFFBE85F29A73063162D55 /* Pods-JCSnowflakeID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCSnowflakeID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CF9221731CA0E9880A975583D24F811 /* Pods-JCSnowflakeID_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JCSnowflakeID_Tests.modulemap"; sourceTree = "<group>"; };
+		A4332CD2C663DA2CA05A77C4F99C673A /* JCSnowflakeID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCSnowflakeID.xcconfig; sourceTree = "<group>"; };
+		A93EAB2932E00CF016C87638B2DD844D /* JCSnowflakeID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCSnowflakeID-dummy.m"; sourceTree = "<group>"; };
+		B2AF1DABF589EF3FD81C1D12D7948CC7 /* JCSnowflakeID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCSnowflakeID.framework; path = JCSnowflakeID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D172AC6B8BF6A16FC6425534A6EC68CC /* Pods-JCSnowflakeID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCSnowflakeID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D267D637777727B4A5AC154DBE9AFAD6 /* Pods-JCSnowflakeID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCSnowflakeID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D32AEC98D6B297B1F2F4AE49608B6262 /* Pods-JCSnowflakeID_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCSnowflakeID_Tests-dummy.m"; sourceTree = "<group>"; };
+		D80FB3C9CD5F522FC0AC0DC7C31935E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA144D0D1B89C6918ED93EB3F8F0F827 /* Pods-JCSnowflakeID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCSnowflakeID_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E8C8C4D58A4FFB79622B64A41C522660 /* Pods-JCSnowflakeID_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCSnowflakeID_Example-resources.sh"; sourceTree = "<group>"; };
+		EE6611BFABD4D2EBEEB1B4C652624C49 /* Pods_JCSnowflakeID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCSnowflakeID_Example.framework; path = "Pods-JCSnowflakeID_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3109CC61165D3B8E5619EE4EC5CDDB1 /* Pods-JCSnowflakeID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCSnowflakeID_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F415A3C627665489DD69C24A11B86F9D /* JCSnowflakeID.c */ = {isa = PBXFileReference; includeInIndex = 1; name = JCSnowflakeID.c; path = JCSnowflakeID/Classes/JCSnowflakeID.c; sourceTree = "<group>"; };
+		F63DABB11F175C1A8F8BE192C53E18BF /* Pods-JCSnowflakeID_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCSnowflakeID_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BEFB362FE40144DA5653453FFC83BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D30C67CBE3859F078D7A6EC68BC9415 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BD0C9CA2CCE82412C8CDA92F46F4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C66A202B4E522F5FDF2C786304CE3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F07A05C5779EB031DC3EED37225350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB496BC2DF727971A7B9044F14D591A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202BB2F7709338234EE5E94B695B9A7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA990FAFBD5E543C09B1B18C04484E0 /* Pods-JCSnowflakeID_Example */,
+				B8EE280E40687454042B0B5E74537E24 /* Pods-JCSnowflakeID_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		21F85508D4E29644B9C2B63CF997B89F /* JCSnowflakeID */ = {
+			isa = PBXGroup;
+			children = (
+				F415A3C627665489DD69C24A11B86F9D /* JCSnowflakeID.c */,
+				32BA733D47913C3640D7548F0B0A537E /* JCSnowflakeID.h */,
+				6D007D713FF42570E5D5B7A2E7F2DCE9 /* Support Files */,
+			);
+			name = JCSnowflakeID;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3F0B41B03959706BA6D024574D130019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2AF1DABF589EF3FD81C1D12D7948CC7 /* JCSnowflakeID.framework */,
+				EE6611BFABD4D2EBEEB1B4C652624C49 /* Pods_JCSnowflakeID_Example.framework */,
+				409C64FF54707E7E3E7CC82E112F4CB5 /* Pods_JCSnowflakeID_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D007D713FF42570E5D5B7A2E7F2DCE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ABCA0AB4F19ECCC2B3A189590F44AC1 /* Info.plist */,
+				44BBFCB070D4EA465DAA913D0F97CA84 /* JCSnowflakeID.modulemap */,
+				A4332CD2C663DA2CA05A77C4F99C673A /* JCSnowflakeID.xcconfig */,
+				A93EAB2932E00CF016C87638B2DD844D /* JCSnowflakeID-dummy.m */,
+				31DE928C2A747A709B4E4F04BD59A8E1 /* JCSnowflakeID-prefix.pch */,
+				99D0F1153CD8AC0D42C8E782C5F3D7B8 /* JCSnowflakeID-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCSnowflakeID";
+			sourceTree = "<group>";
+		};
+		706308760F043444AE1CC56B7CFF235A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21F85508D4E29644B9C2B63CF997B89F /* JCSnowflakeID */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				706308760F043444AE1CC56B7CFF235A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3F0B41B03959706BA6D024574D130019 /* Products */,
+				202BB2F7709338234EE5E94B695B9A7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B8EE280E40687454042B0B5E74537E24 /* Pods-JCSnowflakeID_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				059113323825A757B3119E3FA8028E08 /* Info.plist */,
+				9CF9221731CA0E9880A975583D24F811 /* Pods-JCSnowflakeID_Tests.modulemap */,
+				91B82ACE6E3D4AD127CE9D4293D66D47 /* Pods-JCSnowflakeID_Tests-acknowledgements.markdown */,
+				F63DABB11F175C1A8F8BE192C53E18BF /* Pods-JCSnowflakeID_Tests-acknowledgements.plist */,
+				D32AEC98D6B297B1F2F4AE49608B6262 /* Pods-JCSnowflakeID_Tests-dummy.m */,
+				3ED258A15764D499AF6E16A9D666D1C3 /* Pods-JCSnowflakeID_Tests-frameworks.sh */,
+				7DF32CE61481012602D9CD8D5CC21752 /* Pods-JCSnowflakeID_Tests-resources.sh */,
+				73CC9117EE618A4461D40DFF82F1DE03 /* Pods-JCSnowflakeID_Tests-umbrella.h */,
+				952B5170BA044C4767ECE5E8B7EEED3D /* Pods-JCSnowflakeID_Tests.debug.xcconfig */,
+				DA144D0D1B89C6918ED93EB3F8F0F827 /* Pods-JCSnowflakeID_Tests.release.xcconfig */,
+			);
+			name = "Pods-JCSnowflakeID_Tests";
+			path = "Target Support Files/Pods-JCSnowflakeID_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA990FAFBD5E543C09B1B18C04484E0 /* Pods-JCSnowflakeID_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D80FB3C9CD5F522FC0AC0DC7C31935E7 /* Info.plist */,
+				64321CE10472F54B3142F9ED8081440F /* Pods-JCSnowflakeID_Example.modulemap */,
+				9A24A7A577BFFBE85F29A73063162D55 /* Pods-JCSnowflakeID_Example-acknowledgements.markdown */,
+				D267D637777727B4A5AC154DBE9AFAD6 /* Pods-JCSnowflakeID_Example-acknowledgements.plist */,
+				2AC539C3A2795015C63970B769385ACC /* Pods-JCSnowflakeID_Example-dummy.m */,
+				34869D1A311846EBEEABD4DE42AA0ED5 /* Pods-JCSnowflakeID_Example-frameworks.sh */,
+				E8C8C4D58A4FFB79622B64A41C522660 /* Pods-JCSnowflakeID_Example-resources.sh */,
+				2185B5999703CA5F8F87F8D29835DE54 /* Pods-JCSnowflakeID_Example-umbrella.h */,
+				F3109CC61165D3B8E5619EE4EC5CDDB1 /* Pods-JCSnowflakeID_Example.debug.xcconfig */,
+				D172AC6B8BF6A16FC6425534A6EC68CC /* Pods-JCSnowflakeID_Example.release.xcconfig */,
+			);
+			name = "Pods-JCSnowflakeID_Example";
+			path = "Target Support Files/Pods-JCSnowflakeID_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39E1220B59EE99C17A7F49DF715707FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0D85142E860F56CE16133472FE6C47 /* JCSnowflakeID-umbrella.h in Headers */,
+				C48705C8170FC402B78B6657D2F01377 /* JCSnowflakeID.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464E79CF8518C1988D993FF63B4FAA0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55CE22189C5FC06EEF8929E2FB3D49F /* Pods-JCSnowflakeID_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AA561535A3BD443167C21136641A39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F180F48C49AE3DEA9A89033748DF71 /* Pods-JCSnowflakeID_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AB6836BF6191DD82B5383DD510A945E /* JCSnowflakeID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB8582132BACAEFE676FE564BE3437C /* Build configuration list for PBXNativeTarget "JCSnowflakeID" */;
+			buildPhases = (
+				3081CFD38F08DC21CA3ACD497974D712 /* Sources */,
+				F2F07A05C5779EB031DC3EED37225350 /* Frameworks */,
+				39E1220B59EE99C17A7F49DF715707FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCSnowflakeID;
+			productName = JCSnowflakeID;
+			productReference = B2AF1DABF589EF3FD81C1D12D7948CC7 /* JCSnowflakeID.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C936659CC0D7361790175E258D991CB0 /* Pods-JCSnowflakeID_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B9404ED599022A4102A80060E0B2C3 /* Build configuration list for PBXNativeTarget "Pods-JCSnowflakeID_Example" */;
+			buildPhases = (
+				8011F6D6E38F78318AC3C7557753FD2C /* Sources */,
+				D8BD0C9CA2CCE82412C8CDA92F46F4A5 /* Frameworks */,
+				83AA561535A3BD443167C21136641A39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08AF3E98D96F17F2DB8F126CF080A06 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCSnowflakeID_Example";
+			productName = "Pods-JCSnowflakeID_Example";
+			productReference = EE6611BFABD4D2EBEEB1B4C652624C49 /* Pods_JCSnowflakeID_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E58F71968E22AC68F435157D2E30D91A /* Pods-JCSnowflakeID_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B670861E9B88B63A55DBFB9CFF6847BB /* Build configuration list for PBXNativeTarget "Pods-JCSnowflakeID_Tests" */;
+			buildPhases = (
+				B065684CCBE3B60F47F539BAB83EFAED /* Sources */,
+				4BEFB362FE40144DA5653453FFC83BCB /* Frameworks */,
+				464E79CF8518C1988D993FF63B4FAA0A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCSnowflakeID_Tests";
+			productName = "Pods-JCSnowflakeID_Tests";
+			productReference = 409C64FF54707E7E3E7CC82E112F4CB5 /* Pods_JCSnowflakeID_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3F0B41B03959706BA6D024574D130019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AB6836BF6191DD82B5383DD510A945E /* JCSnowflakeID */,
+				C936659CC0D7361790175E258D991CB0 /* Pods-JCSnowflakeID_Example */,
+				E58F71968E22AC68F435157D2E30D91A /* Pods-JCSnowflakeID_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3081CFD38F08DC21CA3ACD497974D712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18BEF09206250EFFE387A60D279DF5F /* JCSnowflakeID-dummy.m in Sources */,
+				E307E6B18E7BC5EEEE297BE0D1A4877E /* JCSnowflakeID.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8011F6D6E38F78318AC3C7557753FD2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBDA544E5ED5DCDC8EFCC0DE77A646D /* Pods-JCSnowflakeID_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B065684CCBE3B60F47F539BAB83EFAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C940FF483DF6F7CEDC7212879C42CD /* Pods-JCSnowflakeID_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08AF3E98D96F17F2DB8F126CF080A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCSnowflakeID;
+			target = 0AB6836BF6191DD82B5383DD510A945E /* JCSnowflakeID */;
+			targetProxy = 005DFB6B8E8CA68C8B98B57D0B1D21C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5850D0BCF617264069C23B9062A6F2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4332CD2C663DA2CA05A77C4F99C673A /* JCSnowflakeID.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCSnowflakeID/JCSnowflakeID-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCSnowflakeID/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCSnowflakeID/JCSnowflakeID.modulemap";
+				PRODUCT_NAME = JCSnowflakeID;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9537A5150CE9F601574BB588D833DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA144D0D1B89C6918ED93EB3F8F0F827 /* Pods-JCSnowflakeID_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCSnowflakeID_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCSnowflakeID_Tests/Pods-JCSnowflakeID_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JCSnowflakeID_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE1428A317777A21A64FE5607BF4E471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D172AC6B8BF6A16FC6425534A6EC68CC /* Pods-JCSnowflakeID_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCSnowflakeID_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCSnowflakeID_Example/Pods-JCSnowflakeID_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JCSnowflakeID_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C06FC8F85F3AA7DB7B1672CF996F8C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3109CC61165D3B8E5619EE4EC5CDDB1 /* Pods-JCSnowflakeID_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCSnowflakeID_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCSnowflakeID_Example/Pods-JCSnowflakeID_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JCSnowflakeID_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD1B0D33E28E015795DE8C6284D5F79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4332CD2C663DA2CA05A77C4F99C673A /* JCSnowflakeID.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCSnowflakeID/JCSnowflakeID-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCSnowflakeID/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCSnowflakeID/JCSnowflakeID.modulemap";
+				PRODUCT_NAME = JCSnowflakeID;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1DB6C378C40C72383B6351F0AAF8FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952B5170BA044C4767ECE5E8B7EEED3D /* Pods-JCSnowflakeID_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCSnowflakeID_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JCSnowflakeID_Tests/Pods-JCSnowflakeID_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JCSnowflakeID_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B9404ED599022A4102A80060E0B2C3 /* Build configuration list for PBXNativeTarget "Pods-JCSnowflakeID_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06FC8F85F3AA7DB7B1672CF996F8C22 /* Debug */,
+				AE1428A317777A21A64FE5607BF4E471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B670861E9B88B63A55DBFB9CFF6847BB /* Build configuration list for PBXNativeTarget "Pods-JCSnowflakeID_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DB6C378C40C72383B6351F0AAF8FF0 /* Debug */,
+				9537A5150CE9F601574BB588D833DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB8582132BACAEFE676FE564BE3437C /* Build configuration list for PBXNativeTarget "JCSnowflakeID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5850D0BCF617264069C23B9062A6F2DC /* Debug */,
+				DD1B0D33E28E015795DE8C6284D5F79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
